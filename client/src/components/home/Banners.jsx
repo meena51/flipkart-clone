@@ -35,7 +35,7 @@ const Banners = () => {
       draggable={false}
       infinite={true}
       autoPlay={true}
-      autoPlaySpeed={1000}
+      autoPlaySpeed={2000}
       keyBoardControl={true}
       slidesToSlide={1}
       containerClass="carousel-container"
