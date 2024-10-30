@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Banners from './Banners'
 import { Box, styled } from '@mui/material'
 const Component = styled(Box)`
-padding:20px 10px;
+padding:10px;
 background: #F2F2F2;
 `
 const Home = () => {
