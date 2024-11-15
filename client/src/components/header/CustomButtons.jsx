@@ -1,6 +1,7 @@
 import { Box, Button, styled, Typography } from '@mui/material'
 import React from 'react'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import LoginDialog from '../login/LoginDialog';
 const Wrapper = styled(Box)
 `
 display:flex;
@@ -34,6 +35,7 @@ const CustomButtons = () => {
         <ShoppingCartIcon/>
         <Typography>Cart</Typography>
       </Container>
+      <LoginDialog/>
     </Wrapper>
   )
 }
